@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://方块警察.glb" type="PackedScene" id=1]
+[ext_resource path="res://Character/animation.gd" type="Script" id=2]
+
+[node name="Police" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="BoneAttachment" parent=" 2/Skeleton" index="0"]
+transform = Transform( -0.0351988, 0.0609648, -0.997519, -0.999297, 0.0107487, 0.0359185, 0.0129118, 0.998082, 0.0605437, -0.0911706, 1.68892, 0.690921 )
+
+[node name="gun" parent=" 2/Skeleton/BoneAttachment" index="0"]
+transform = Transform( -3.41156e-07, -2.094, 0, 2.094, -3.41156e-07, 0, 0, 0, 2.094, -0.055709, 0.0905233, -0.0146991 )
+
+[node name="BoneAttachment 2" parent=" 2/Skeleton" index="1"]
+transform = Transform( 1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 1.67407, 0 )
+
+[node name="_Orientation" parent=" 2/Skeleton/BoneAttachment 2/Spatial" index="0"]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, -1, 0, 1, -1.62921e-07, 0, 0, 0 )
+
+[node name="body" parent=" 2/Skeleton" index="3"]
+visible = false

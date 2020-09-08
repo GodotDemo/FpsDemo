@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/简单场景.obj-d413f24b0fe3e8cb0692b70aefcada02.mesh"
+
+[deps]
+
+files=[ "res://.import/简单场景.obj-d413f24b0fe3e8cb0692b70aefcada02.mesh" ]
+
+source_file="res://Model/简单场景.obj"
+dest_files=[ "res://.import/简单场景.obj-d413f24b0fe3e8cb0692b70aefcada02.mesh", "res://.import/简单场景.obj-d413f24b0fe3e8cb0692b70aefcada02.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
